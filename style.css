@@ -83,10 +83,10 @@ h1 {
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
   gap: .75rem;
-  margin-block: .25rem;
+  margin-block: 1rem;
   color: var(--text);
   font-size: .875rem;
-  font-weight: 600;
+  font-weight: 300;
   letter-spacing: .04em;
   text-align: center;
 }
@@ -100,7 +100,7 @@ h1 {
 
 .social {
   display: grid;
-  grid-template-columns: auto 4.75rem minmax(0, 1fr);
+  grid-template-columns: auto 8rem minmax(0, 1fr);
   align-items: center;
   gap: clamp(.5rem, 2vw, .8125rem);
   min-height: 3.375rem;
@@ -140,6 +140,7 @@ h1 {
 .linkedin { --icon-bg: #222d39; --icon-color: #a6c9ee; }
 .komoot { --icon-bg: #2c3321; --icon-color: #c0dc89; }
 .notion { --icon-bg: #303033; --icon-color: #e5e5e4; }
+.arch-intelligence { --icon-bg: #26352e; --icon-color: #a8d7ba; }
 
 @media (hover: hover) {
   .social:hover {
